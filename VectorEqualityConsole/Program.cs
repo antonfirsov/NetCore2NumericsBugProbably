@@ -22,7 +22,7 @@ namespace VectorEqualityConsole
 
             bool equality = a.BackingVector.Equals(b.BackingVector);
 
-            Console.WriteLine(Environment.Version);
+            Console.WriteLine($"Environment.Version: {Environment.Version} | Vector.IsHardwareAccelerated:{Vector.IsHardwareAccelerated}");
             Console.WriteLine("Expected: True | Actual: "+equality);
             Console.ReadLine();
         }
