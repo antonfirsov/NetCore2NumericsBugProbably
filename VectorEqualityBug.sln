@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorEqualityBug", "VectorEqualityBug\VectorEqualityBug.csproj", "{0B9C49B3-4770-471D-9AC0-BC5D4B34FA2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VectorEqualityBug", "VectorEqualityBug\VectorEqualityBug.csproj", "{0B9C49B3-4770-471D-9AC0-BC5D4B34FA2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorEqualityConsole", "VectorEqualityConsole\VectorEqualityConsole.csproj", "{7DE1B0FD-A56D-418A-907B-908B088AABA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0B9C49B3-4770-471D-9AC0-BC5D4B34FA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B9C49B3-4770-471D-9AC0-BC5D4B34FA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B9C49B3-4770-471D-9AC0-BC5D4B34FA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE1B0FD-A56D-418A-907B-908B088AABA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE1B0FD-A56D-418A-907B-908B088AABA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE1B0FD-A56D-418A-907B-908B088AABA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE1B0FD-A56D-418A-907B-908B088AABA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
